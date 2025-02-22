@@ -1,4 +1,4 @@
-# create a virtual irtual enviroment 
+# create a virtual enviroment 
 python -m venv venv
 
 # activate the venv
