@@ -11,8 +11,6 @@ class Order(db.Model):
     price = Column(Float, nullable=False)
     status = Column(String(20), nullable=False)
     
-    user = relationship("User", backref="orders")
-    
     
     def __repr__(self):
         return f'<Order {self.orderid} - User {self.userid}>'
