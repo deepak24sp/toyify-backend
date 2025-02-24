@@ -7,4 +7,4 @@ migrate = Migrate()
 def init_db(app):
     db.init_app(app)
     migrate.init_app(app, db)
-    from src.models import category, product, product_image
+    from src.models import category, product, product_image,users,order,order_item
